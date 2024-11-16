@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/animalName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Animal Name"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/animalOrigin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Origin"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/animalLength"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Length"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/animalFamilyFriendly"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Family Friendly: 0/5"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/animalShedding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shedding: 0/5"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/animalDiet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Diet: Carnivore"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/animalLifespan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lifespan: 10 - 12 years"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/animalSlogan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Slogan: Unknown"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/animalColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Color: Unknown"
+        android:textSize="14sp"/>
+
+</LinearLayout>
